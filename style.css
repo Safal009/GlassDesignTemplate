@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color:darkblue;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.6;
+
+}
+h3{
+    color: darkblue;
+    font-weight: 600;
+
+
+}
+
+h2{
+    color:black;
+    font-weight: 600;
+}
+
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#05386b,#5CDB95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass{
+    background: white;
+    min-height: 80vh;
+    width: 60%;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3)
+    );
+    border-radius: 2rem;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+
+}
+.circle1,.circle2{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),
+    rgba(255,255,255,0.3)
+    );
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+  
+
+}
+
+.circle1{
+    top: 5%;
+    right: 15%;
+    
+}
+
+.circle2{
+    bottom: 5%;
+    left: 15%;
+}
+
+.user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.link img{
+    height: 3rem;
+    width: 3rem;
+    
+}
+
+.card img{
+    height: 5rem;
+    width: 5rem;
+    
+}
+
+.card1 img{
+    height: 3rem;
+    width: 6rem;
+}
+
+.link1 img{
+    height: 5rem;
+    width: 6.5rem;;
+}
+
+.link,.link1{
+    display: flex;
+    margin: 2rem, 0rem;
+    padding: 1rem, 5rem;
+    align-items: center;
+}
+
+.link h2 ,.link1 h2{
+    justify-content: space-evenly;
+    padding: 0rem 2rem;
+}
+
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.8),
+    rgba(255,255,255,0.3)
+    );
+    border-radius: 2rem;
+}
+
+.movies{
+    flex: 2;
+   
+}
+
+.personalrecommend{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card1{
+    display: flex;
+    position: absolute;
+    background: linear-gradient(to left top, rgba(255,255,255,0.8), rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin: 2rem,0rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    height: 6rem;
+    width: 30rem;
+    align-content: center;
+    margin-left: 1rem;
+    box-shadow: 6px,6px,20px rgba(122,122,122,0.753);
+    
+
+}
+.card{
+    display: flex;
+    background: linear-gradient(to left top, rgba(255,255,255,0.8), rgba(255,255,255,0.5));
+    border-radius: 1rem;
+    margin: 2rem, 0rem;
+    padding: 1rem;
+    margin-block: 2rem;
+    height: 6rem;
+    width: 30rem;
+    align-content: center;
+    margin-left: 1rem;
+    box-shadow: 6px,6px,20px rgba(122,122,122,0.753);
+}
+
+.card-info{
+    display: flex;
+    
+    align-content: center;
+    margin-left: 3rem;
+}
